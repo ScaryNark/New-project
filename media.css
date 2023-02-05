@@ -1,0 +1,57 @@
+@media screen and (max-width: 820px) {
+
+    #header{
+        padding: 0 0;
+    }
+    .burger-switch {
+        display: flex;
+    }
+    .header__nav{
+        display: none;
+    }
+    #main{
+        padding: 150px 0;
+    }
+    .main__info{
+        display: flex;
+        row-gap: 200px;
+    }
+    .mainRegistr{
+        width: 60%;
+        margin: 0 auto;
+
+    }
+    .mainImage{
+        height: 400px;
+        width: 100%;
+    }
+    #creative{
+        padding: 100px 0;
+    }
+
+    .creativeChildOne {
+        gap: 40px;
+    }
+    .creativ{
+        width: 40%;
+    }
+    .swiperMy{
+        width: 100%;
+    }
+    .swiperInfo{
+        width: 100%;
+    }
+    .swiperParend{
+        flex-wrap: wrap;
+    }
+    #search{
+        width: 300px;
+    }
+    .categoriesParend{
+        flex-direction: column;
+        padding: 0;
+    }
+    .categories__choise{
+        flex-direction: row;
+    }
+}

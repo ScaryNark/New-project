@@ -1,0 +1,52 @@
+#main {
+    width: 100%;
+    background-image: url('./image/science-lab-g121e3640c_1920.jpg');
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main__info {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.mainRegistr {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 25%;
+}
+
+.mainRegistr input {
+    padding: 0 10px;
+    height: 30px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.mainRegistr img {
+    height: 100%;
+}
+
+.mainImage {
+    height: 300px;
+}
+.mainImage img{
+    height: 100%;
+}
+
+.mainButton button {
+    height: 30px;
+    padding: 0 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: cadetblue;
+    cursor: pointer;
+}

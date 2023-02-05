@@ -1,0 +1,138 @@
+
+
+.modalBackdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.modalBackdropActive {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.798);
+    color: #fff;
+    width: 40%;
+    height: 70%;
+    scale: 0;
+    transition: 0.5s;
+}
+
+.modalActive {
+    scale: 1;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding: 0 40px;
+    background-color: white;
+    color: black;
+}
+.modalHeader span:before,
+.modalHeader span:after{
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    margin: 0 0 0 -25px;
+    cursor: pointer;
+}
+.modalHeader span:before{
+    rotate: 45deg;
+}
+.modalHeader span:after{
+    rotate: -45deg;
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+
+.modalContent p {
+    margin-top: 30px;
+}
+
+.modalContent input {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+}
+
+.modalContent span {
+    height: 3px;
+    background-color: rgb(17, 81, 200);
+    width: 100%;
+}
+.delete{
+    height: 50px;
+    width: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+.modalClick {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0 100px 0;
+}
+
+.modalApplyButton {
+    width: 50%;
+    height: 50px;
+    background: white;
+    cursor: pointer;
+}
+
+.modalCloseButton {
+    cursor: pointer;
+}
+
+.hideContent {
+    display: none;
+}
+
+.thankYou {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.thankYou img{
+    height: 180px;
+    width: 200px;
+}
+
+.checkdelete {
+    display: none;
+}

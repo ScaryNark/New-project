@@ -1,0 +1,125 @@
+#categories {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.798);
+    padding: 0 0 100px 0;
+}
+
+.categoriesParend {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 60px;
+
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color:  white;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.wrap img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrap p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.output {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+    padding: 20px 0;
+    width: 80%;
+}
+.outputDop img{
+    width: 300px;
+    height: 300px;
+}
+.outputDop{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+
+.categories__choise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    padding: 200px 0;
+    width: 20%;
+}
+
+.categories__choise button {
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    border: none;
+}
+
+#form {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.formDop {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.formDop img {
+    height: 60px;
+}
+
+#search {
+    width: 500px;
+    height: 40px;
+    padding: 10px 100px 10px 20px;
+    border-radius: 30px;
+}
+
+#form button {
+    height: 40px;
+    width: 200px;
+    margin: 0 0 0 -100px;
+    border-radius: 30px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wrap button {
+    width: 100px;
+    height: 20px;
+    margin: 20px 0;
+}
+.wrapDelete{
+    display: none;
+}

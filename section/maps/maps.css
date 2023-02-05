@@ -1,0 +1,23 @@
+#maps{
+    padding: 200px 0;
+    width: 100%;
+}
+.mapsParend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 200px;
+}
+.mapsChildTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    text-align: center;
+    height: 400px;
+    border: 2px solid white;
+    background: rgba(0, 0, 0, 0.798);
+    border-radius: 30px;
+    color: #fff;
+}
